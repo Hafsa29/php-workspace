@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+#home{
+	text-align: center;
+}
+#home p{
+	word-spacing: .5em;
+}
+#dashboard ul{
+	list-style-type: none;
+}
+.profile {
+	margin: 20px 0px;
+}
+.profile:nth-of-type(1), .profile:nth-of-type(2){
+	margin: auto;
+}
+.profile form, .profile table{
+	margin: 0px auto;
+}
+.profile hr{
+	width: 400px;
+}
+.profile ul{
+	list-style-type: none;
+}
+#profile_title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+#ranklist ol{
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+#documents ul{
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+#solution_section {
+	text-align: center;
+}
+.comments{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.comments p{
+	width: 200px;
+	text-align: center;
+}
+#mod { display: none; }
+#mod a { background: #CCC; color: #333; font-weight: bold; padding: 5px 10px; border: none; }
+#mod a:hover { background: #aaa; }
+#contact{
+	height: 300px;
+}
+.chunk{
+	float: left;
+	display: block;
+	width: 500px;
+	text-align: left;
+}
+.label{
+	font-weight: bold;
+}

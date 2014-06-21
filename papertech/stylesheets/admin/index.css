@@ -1,0 +1,25 @@
+form{
+	margin: 0px auto;
+	width: 300px;
+}
+label{
+	display: block;
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+#captcha{
+	display: block;
+	float: left;	
+}
+input{
+	width: 150px;
+	text-align: left;
+}
+input[type=submit]{
+	width: auto;
+	text-align: center;
+}
+br{
+	clear: left;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.section{
+	margin: 30px 0px;
+}
+#about_us{
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.75em;
+	word-spacing: .5em;
+	text-align: left;
+	font-family: 'Armata', cursive;
+}
+#about_us:first-letter {
+	font-size: 3.5em;
+	line-height: 1em;
+	font-weight: 400;
+	float: left;
+	margin: 0 0.107em 0 0;
+}
+.about_us{
+	text-align: center;
+	color: #fff;
+}
+.bx-wrapper, .bx-viewport {
+    height: 285px !important;
+    width: 510px !important;
+}

@@ -1,0 +1,26 @@
+#sign_in, #sign_up{
+	border: 2px solid #6495ED;
+	padding: 50px 80px;
+	margin: 0px 60px;
+}
+#sign_in_error, #sign_up_error{
+	padding: 0px 80px;
+	margin: 0px 60px;
+	color: #f00;
+}
+#sign_in label, #sign_up label{
+	margin-top: 10px;
+	width: 120px;
+	text-align: right;
+	float: left;
+}
+#sign_in input, #sign_up input{
+	width: 150px;
+}
+#sign_in input[type=submit], #sign_up input[type=submit]{
+	float: right;
+	width: auto;
+}
+br{
+	clear: left;
+}

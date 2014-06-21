@@ -1,0 +1,62 @@
+h2{
+	font-family: 'Ultra', serif;
+}
+#map_canvas{
+	border: 5px solid #f7f7f7;
+}
+.contact_link{
+	display: table;
+	text-align: center;
+	height: 100px;
+}
+.contact_link a{
+	display: table-cell;
+	vertical-align: middle;
+}
+.contact_link a, .contact_link a:link, .contact_link a:visited{
+	font-family: 'Ultra', serif;
+	font-weight: bolder;
+	font-size: 1.5em;
+	color: #000;
+	text-decoration: none;
+}
+.contact_link a:hover, .contact_link a:active, .contact_link a:focus{
+	background-color: #000;
+	color: #fff;
+	text-decoration: underline;
+}
+.reveal-modal{
+	text-align: center;
+}
+.reveal-modal a, .reveal-modal a:link, .reveal-modal a:visited, .reveal-modal a:active, .reveal-modal a:focus{
+	color: #000;
+	text-decoration: none;
+}
+.reveal-modal a:hover{
+	text-decoration: underline;
+}
+#contact_form{
+	text-align: center;
+	width: 300px;
+	margin: 0px auto;
+}
+#contact_form label{
+	margin-bottom: 10px;
+	float: left;
+	display: block;
+	width: 80px;
+}
+#contact_form input, #contact_form textarea{
+	position: relative;
+	top: -5px;
+	margin-bottom: 10px;
+	width: 200px;
+	text-align: left;
+	resize: none;
+}
+#contact_form br{
+	clear: left;
+}
+#contact_form input[type=submit]{
+	width: auto;
+}

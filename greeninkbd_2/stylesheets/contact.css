@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#email_header{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+form{
+	border: 5px solid #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+label{
+	text-align: right;
+	display: block;
+	float: left;
+	width: 100px;
+	color: #fff;
+}
+input, textarea{
+	width: 200px;
+}
+textarea{
+	resize: none;
+}
+br{
+	clear: left;
+}
+input[type=submit]{
+	width: auto;
+	margin: 5px auto;
+}
+#result{
+	text-align: center;
+	font-style: 1.2em;
+	font-weight: bold;
+}
+#map_canvas{
+	height: 400px;
+	width: 100%;
+	margin: 40px auto;
+	border: 5px solid #fff;
+}
+#address{
+	color: #fff;
+	text-align: center;
+}
+#home{
+	text-indent: -9999px;
+	background-image: url(./images/home.png);
+	height: 26px;
+	width: 27px;
+}

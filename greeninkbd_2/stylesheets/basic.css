@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(./images/blackorchid.png);
+}
+
+#menu{
+	color: #fff;
+	background-color: #F89406;
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu li{
+	display: inline-block;
+}
+#clients{
+	font-size: .9em;
+	line-height: 1.3em;
+	padding: 0px 15px;
+}
+#content{
+	padding: 0px 0px;
+	height: 0px;
+	overflow-y: scroll;
+}
+
+footer{
+	color: #fff;
+}
+footer h4{
+	text-decoration: underline;
+}
+footer ul{
+	position: relative;
+	list-style-type: none;
+	left: -40px;
+}
+#nav_sites{
+	left: -45px;
+}
+footer li{
+	margin: 10px 0px;
+}
+footer a, footer a:link, footer a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover, footer a:active, footer a:focus{
+	text-decoration: underline;
+}

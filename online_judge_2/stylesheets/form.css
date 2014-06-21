@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+form{
+	float: none;
+	margin: 50px 0px;
+	padding: 20px 0px;
+}
+form:nth-of-type(1){
+	margin: 0px;
+}
+label{
+	margin-top: 10px;
+	width: 120px;
+	text-align: right;
+	float: left;
+}
+input, select{
+	width: 150px;
+}
+br{
+	clear: left;
+}
+#capcha {
+	margin: 0px 60px;
+}
+#capcha div {
+    float: left;
+}
+input[type=submit]{
+	float: none;
+	width: auto;
+}
+#login{
+	border: 1px solid #0066CC;
+}
+#sign_up{
+	border: 1px solid #0066CC;
+}
+#submit form{
+	margin: 0px auto;
+	width: 340px;
+}
+#submit label{
+	margin-top: 0px;
+}
+#upload_comment{
+	text-align: center;
+	margin: 100px 0px;
+}
+#upload_comment label{
+	text-align: left;
+	width: 180px;
+	float: none;
+	margin: 0px auto;
+	display: block;
+}
+#errors{
+	border: 1px solid #0066CC;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #CC0000;
+}
+.errors{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #CC0000;
+}

@@ -1,0 +1,16 @@
+header{
+	text-align: center;
+}
+section{
+	text-align: center;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+	margin: 0px 20px;
+}

@@ -1,0 +1,45 @@
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <ctime>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <cctype>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cassert>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+
+#define MAX 100000
+#define INF (1<<28)
+#define DEBUG if(1)
+#define sf scanf
+#define pf printf
+#define pb push_back
+#define ph push
+#define pa pair <int, int>
+#define clr(a) memset(a, 0, sizeof(a))
+#define set(a) memset(a, -1, sizeof(a))
+#define sq(x) (x*x)
+#define pi acos(-1)
+#define cont continue
+#define br break
+#define llint long long int
+#define ullint unsigned long long int
+
+using namespace std;
+
+int main(void) 
+{
+	freopen("input.txt", "r", stdin);
+
+
+	return 0;
+}

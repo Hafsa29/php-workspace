@@ -1,0 +1,21 @@
+form{
+	margin: 0px auto;
+	width: 400px;
+}
+label{
+	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+input{
+	width: 200px;
+	text-align: left;
+}
+input[type=submit]{
+	width: auto;
+	text-align: center;
+}
+br{
+	clear: left;
+}

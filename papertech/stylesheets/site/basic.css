@@ -1,0 +1,87 @@
+body{
+	background-image: url(../images/background.jpg);
+}
+header{
+	background-color: #fff;
+}
+header h1{
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	width: 255px;
+	height: 175px;
+	text-indent: -9999px;
+}
+header form{
+ 	height: 175px;
+}
+#search_input{
+	margin-top: 20%;
+	border:1px solid #0076a3;
+	height: 25px;
+	padding: 5px;
+}
+#search_button{
+	margin-top: 20%;
+	padding: 2px 5px;
+	font-size: .8em;
+	vertical-align: baseline;
+}
+footer{
+	background-color: #fff;
+	padding: 0% 10%;
+}
+footer ul{
+	position: relative;
+	left: -38px;
+	list-style-type: none;
+}
+footer li{
+	margin: 10px 0px;
+}
+footer a, footer a:link, footer a:visited, footer a:active, footer a:focus{
+	color: #000;
+	text-decoration: none;	
+}
+footer a:hover{
+	text-decoration: underline;
+}
+#social_media{
+	position: relative;
+	left: -40px;
+}
+#social_media li{
+	margin: 5px 0px;
+}
+section{
+	background-color: #fff;
+}
+#content{
+	height: 500px;
+	overflow-y: scroll;
+}
+nav{
+	font-family: 'IM Fell Double Pica SC', serif;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	margin: 15px 0px;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+}
+nav a, nav a:link, nav a:visited, nav a:active, nav a:focus, nav a:hover{
+	color: #000;
+	text-decoration: none;
+}
+hr{
+	visibility: hidden;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}

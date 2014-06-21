@@ -1,0 +1,19 @@
+.news{
+	padding: 10px;
+}
+.news img{
+	height: 200px;
+	width: 300px;
+}
+.news a, .news a:link, .news a:visited, .news a:hover, .news a:active, .news a:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.reveal-modal img{
+	height: 100%;
+	width: 100%;
+}
+h3{
+	width: 100%;
+	text-align: center;
+}

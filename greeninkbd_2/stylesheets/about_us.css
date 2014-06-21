@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Documents */
+div.profile{
+	text-align: center;
+}
+p.profile{
+	display: none;
+}
+img.profile{
+	margin: 20px 0px;
+	padding: 5px;
+}
+#ceo_detail{
+	display: block;
+}
+#employees{
+	background-image: url(./images/black.jpg);
+	height: 250px;
+	color: #fff;
+}
+#employees p{
+	font-size: .9em;
+}

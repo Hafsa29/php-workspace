@@ -1,0 +1,38 @@
+form{
+	margin: 0px auto;
+	width: 400px;
+}
+label{
+	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+input, textarea{
+	resize: none;
+	width: 200px;
+	text-align: left;
+}
+input[type=submit]{
+	width: auto;
+	text-align: center;
+}
+br{
+	clear: left;
+}
+#del_pics ul{
+	list-style-type: none;
+}
+#del_pics li{
+	display: inline-block;
+}
+#del_pics img{
+	margin : 20px;
+	width: 100px;
+	height: 50px;
+}
+#del_pics img:hover, #del_pics img:active, #del_pics img:focus{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".categories").bxSlider({auto:!0,minSlides:3,maxSlides:5,slideWidth:300})});

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.slider img{
+    cursor: pointer;
+}
+#show{
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+}
+#show iframe{
+    border: 5px solid #fff;
+}
+#testimonials{
+    padding: 20px 0px 0px 20px;
+    color: #fff;
+}
+#testimonials h3{
+    width: 100%;
+}
+p.accordion-2, p.accordion-3, p.accordion-4, p.accordion-5, img.accordion-2, img.accordion-3, img.accordion-4, img.accordion-5{
+    display: none;
+}
